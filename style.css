@@ -1,0 +1,11 @@
+.fullname{
+    color: red; border: 2px solid pink; text-align: center;
+}
+
+.sub{
+    color: blue; border: 2px solid pink; text-align: center;
+}
+
+.rub{
+    color: blueviolet; border: 2px dotted red; text-align: center;
+}
