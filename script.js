@@ -1,4 +1,4 @@
-let firstname = "Nabel";
-    let lastname = "Abdulmalik";
+/*( let firstname = "Nabel";
+    let lastname = "Works";
 
-    document.getElementById("fullname").innerHTML=firstname + " " + lastname;
+    document.getElementById("fullname").innerHTML=firstname + lastname; */
