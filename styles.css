@@ -248,7 +248,7 @@
 
 .main__content p {
   margin-top: 1rem;
-  font-size: 2rem;
+  font-size: 1.6rem;
   font-weight: 700;
 }
 
@@ -298,8 +298,8 @@
 }
 
 #main__img {
-  height: 80%;
-  width: 80%;
+  height: 100%;
+  width: 100%;
 }
 
 /* Mobile Responsive */
@@ -392,9 +392,9 @@
 }
 
 .services__card {
-  margin: 1rem;
-  height: 525px;
-  width: 400px;
+  margin: 0%;
+  height: 230px;
+  width: 480px;
   border-radius: 4px;
   background-image: linear-gradient(
       to bottom,
@@ -402,7 +402,7 @@
       rgba(17, 17, 17, 0.6) 100%
     ),
     url('/images/pic3.jpg');
-  background-size: cover;
+  background-size: 450px;
   position: relative;
   color: #fff;
 }
@@ -491,7 +491,13 @@
 }
 
 #footer__logo {
-  color: #fff;
+  background-color: #ff8177;
+  background-image: linear-gradient(to left, red 40%, white 20%);
+  background-size: 100%;
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
   display: flex;
   align-items: center;
   cursor: pointer;
