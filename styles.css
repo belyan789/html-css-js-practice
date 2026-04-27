@@ -393,7 +393,7 @@
 
 .services__card {
   margin: 0%;
-  height: 500px;
+  height: 360px;
   width: 480px;
   border-radius: 4px;
   background-image: linear-gradient(
@@ -401,15 +401,10 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.6) 100%
     ),
-    url('/images/pic3.jpg');
-  background-size: 450px;
+    url('/images/z3x.jpg');
+  background-size: 100% 100%;
   position: relative;
   color: #fff;
-
-}
-
-.services__card:before {
-  opacity: 0.2;
 }
 
 .services__card:nth-child(2) {
@@ -418,18 +413,55 @@
       rgba(0, 0, 0, 0) 0%,
       rgba(17, 17, 17, 0.9) 100%
     ),
-    url('/images/pic4.jpg');
+    url('/images/dft.png');
+}
+.services__card:nth-child(3) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.9) 100%
+    ),
+    url('/images/aspd.png');
+}
+
+.services__card:nth-child(4) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.9) 100%
+    ),
+    url('/images/rtc.png');
+}
+.services__card:nth-child(5) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.9) 100%
+    ),
+    url('/images/anony.png');
+}
+.services__card:nth-child(6) {
+  background-image: linear-gradient(
+      to bottom,
+      rgba(0, 0, 0, 0) 0%,
+      rgba(17, 17, 17, 0.9) 100%
+    ),
+    url('/images/simunlocker.png');
+}
+
+.services__card:before {
+  opacity: 0.2;
 }
 
 .services__card h2 {
   position: absolute;
-  top: 350px;
+  top: 230px;
   left: 30px;
 }
 
 .services__card p {
   position: absolute;
-  top: 400px;
+  top: 270px;
   left: 30px;
 }
 
@@ -441,7 +473,7 @@
   border-radius: 4px;
   background: #f77062;
   position: absolute;
-  top: 440px;
+  top: 300px;
   left: 30px;
   font-size: 1rem;
 }
@@ -484,7 +516,7 @@
 /* Footer CSS */
 .footer__container {
   background-color: #141414;
-  padding: 5rem 0;
+  padding: 10rem 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
