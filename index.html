@@ -17,6 +17,10 @@
       href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap"
       rel="stylesheet"
     />
+
+    <script src="https://google.com" async defer></script>
+
+
   </head>
   <body>
     <!-- Navbar Section -->
@@ -47,9 +51,18 @@
             <a href="/" class="navbar__links">Windows</a>
           </li>
           <li class="navbar__btn"><a href="/" class="button">Login</a></li>
-        </ul>
-      </div>
-    </nav>
+
+          <!-- Configuration -->
+            <div id="g_id_onload"
+              data-client_id="930158012343-r5nu9a6rn9cre984kn2t0npffi1g2okg.apps.googleusercontent.com"
+              data-callback="handleCredentialResponse">
+            </div>
+
+          <!-- The actual button -->
+          <div class="g_id_signin" data-type="standard"></div>
+            </ul>
+          </div>
+      </nav>
 
     <!-- Hero Section -->
     <div class="main">
